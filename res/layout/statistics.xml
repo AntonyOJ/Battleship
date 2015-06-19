@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_margin="10dp"
+              android:gravity="center"
+              android:textSize="50dp"
+              android:text="@string/stats"
+            />
+    <TableLayout android:orientation="vertical"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_gravity="center_horizontal">
+        <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dip">
+            <TextView
+                    android:id="@+id/games_played_label"
+                    android:textSize="20dp"
+                    android:text="@string/games_played"
+                    />
+            <TextView
+                    android:id="@+id/gamesPlayed"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="0dp"
+                    android:textSize="20dp"
+                    android:text="0"
+                    />
+        </TableRow>
+        <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dip" >
+            <TextView
+                    android:id="@+id/wins_label"
+                    android:textSize="20dp"
+                    android:text="@string/wins"
+                    />
+            <TextView
+                    android:id="@+id/wins"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="0dp"
+                    android:textSize="20dp"
+                    />
+        </TableRow>
+        <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dip" >
+            <TextView
+                    android:id="@+id/losses_label"
+                    android:textSize="20dp"
+                    android:text="@string/losses"
+                    />
+            <TextView
+                    android:id="@+id/losses"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="0dp"
+                    android:textSize="20dp"
+                    />
+        </TableRow>
+        <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dip" >
+            <TextView
+                    android:id="@+id/shots_fired_label"
+                    android:textSize="20dp"
+                    android:text="@string/shots_fired"
+                    />
+            <TextView
+                    android:id="@+id/shotsFired"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="0dp"
+                    android:textSize="20dp"
+                    />
+        </TableRow>
+        <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dip" >
+            <TextView
+                    android:id="@+id/ship_hits_label"
+                    android:textSize="20dp"
+                    android:text="@string/ship_hits"
+                    />
+            <TextView
+                    android:id="@+id/shipHits"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="0dp"
+                    android:textSize="20dp"
+                    />
+        </TableRow>
+        <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dip" >
+            <TextView
+                    android:id="@+id/ships_destroyed_label"
+                    android:textSize="20dp"
+                    android:text="@string/ships_destroyed"
+                    />
+            <TextView
+                    android:id="@+id/shipsDestroyed"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="0dp"
+                    android:textSize="20dp"
+                    />
+        </TableRow>
+    </TableLayout>
+    <Button android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:onClick="handleButtonReset"
+            android:layout_margin="10dp"
+            android:layout_gravity="center_horizontal"
+            android:textSize="20dp"
+            android:text="@string/reset"/>
+</LinearLayout>

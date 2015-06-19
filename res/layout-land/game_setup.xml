@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/position_label"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:text="@string/position"
+            />
+    <com.example.Battleship.views.SetupGridGameView
+            android:layout_width="450dp"
+            android:layout_height="match_parent"
+            android:id="@+id/game_setup_model"
+            />
+    <Button android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:text="@string/randomise_ship_positions"
+            android:onClick="handleButtonRandomiseShipPositions"
+            />
+    <TableLayout android:orientation="vertical"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_gravity="center_horizontal">
+        <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dip">
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/player_turn_label"
+                    android:textSize="20dp"
+                    android:text="@string/player_turn"
+                    />
+            <TextView
+                    android:id="@+id/playerTurn"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="0dp"
+                    android:textSize="20dp"
+                    />
+        </TableRow>
+    </TableLayout>
+    <Button android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="@string/confirm_ship_positions"
+            android:onClick="handleButtonConfirmShipPositions"
+            />
+</LinearLayout>

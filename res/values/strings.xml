@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Battleship</string>
+
+    <string name="play">Play</string>
+    <string name="stats">Statistics</string>
+    <string name="instructions">Instructions</string>
+    <string name="info">Information</string>
+
+    <string name="game_mode">Game Mode</string>
+    <string name="single_player">Single Player</string>
+    <string name="two_player">2 Player</string>
+
+    <string name="single_device">Single Device</string>
+    <string name="two_devices">Two Devices</string>
+
+    <string name="games_played">Games Played</string>
+    <string name="wins">Wins</string>
+    <string name="losses">Losses</string>
+    <string name="shots_fired">Shots Fired</string>
+    <string name="ship_hits">Ship Hits</string>
+    <string name="ships_destroyed">Ships Destroyed</string>
+    <string name="reset">Reset</string>
+
+    <string name="stats_file_key">statsKey</string>
+    <string name="games_played_key">gamesPlayedKey</string>
+    <string name="wins_key">winsKey</string>
+    <string name="losses_key">lossesKey</string>
+    <string name="shots_fired_key">shotsFiredKey</string>
+    <string name="ships_hit_key">shipsHitKey</string>
+    <string name="ships_destroyed_key">shipsDestroyedKey</string>
+
+    <string name="position">Position your ships</string>
+    <string name="randomise_ship_positions">Randomise ship positions</string>
+    <string name="confirm_ship_positions">Confirm ship positions</string>
+
+    <string name="tracking_grid">Tracking Grid</string>
+    <string name="ship_grid">Ship Grid</string>
+    <string name="player_turn">Player Turn:</string>
+    <string name="opponent_ship_count">Opponent ships left:</string>
+    <string name="player_ship_count">Your ships left:</string>
+    <string name="switch_ship_grid">Switch to Ship Grid</string>
+    <string name="switch_tracking_grid">Switch to Tracking Grid</string>
+
+</resources>
